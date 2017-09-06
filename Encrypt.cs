@@ -24,7 +24,7 @@ namespace EncryptionNet
             byte[] decryptedBytes = null;
 
             // Set your salt here, change it to meet your flavor:
-            // The salt bytes must be at least 8 bytes.
+            // The salt bytes must be at least 8 bytes..
             byte[] saltBytes = new byte[] { 1, 2, 3, 4, 5, 6, 7, 8 };
 
             try
@@ -64,7 +64,7 @@ namespace EncryptionNet
             byte[] encryptedBytes = null;
 
             // Set your salt here, change it to meet your flavor:
-            // The salt bytes must be at least 8 bytes.
+            // The salt bytes must be at least 8 bytes..
             byte[] saltBytes = new byte[] { 1, 2, 3, 4, 5, 6, 7, 8 };
 
             try
